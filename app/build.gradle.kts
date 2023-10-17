@@ -39,7 +39,7 @@ android {
         buildConfigField(
             "String",
             "OPEN_WEATHER_API_KEY",
-            "\"$openWeatherApiKey\""
+            openWeatherApiKey
         )
         buildConfigField("String", "BASE_URL", "\"https://api.openweathermap.org/\"")
 
